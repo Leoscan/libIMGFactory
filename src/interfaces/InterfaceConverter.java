@@ -1,7 +1,7 @@
 package interfaces;
 
-import classes.Imagem;
+import classe.imagens.Imagem;
 
 public interface InterfaceConverter {
-	void converter(Imagem srcImg);
+	void converter(Imagem srcImg, String nomeSegundoArquivo);
 }
