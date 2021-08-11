@@ -24,4 +24,17 @@ public class Cores {
 		blackAndWhite(image.clone(), image, 152);
 		MarvinImageIO.saveImage(image, (srcImg.getDestino() + nomeArquivo + ".jpg"));
 	}
+	
+	public static void inverterCores(Imagem srcImg, String nomeArquivo) {
+		MarvinImage image = MarvinImageIO.loadImage(srcImg.getPath());
+		invertColors(image.clone(), image);
+		MarvinImageIO.saveImage(image, (srcImg.getDestino() + nomeArquivo + ".jpg"));
+	}
+	
+	public static void escalaCinza(Imagem srcImg, String nomeArquivo) {
+		MarvinImage image = MarvinImageIO.loadImage(srcImg.getPath());
+		grayScale(image.clone(), image);
+		MarvinImageIO.saveImage(image, (srcImg.getDestino() + nomeArquivo + ".jpg"));
+	}
+
 }

@@ -16,6 +16,12 @@ public class MainTesteCores {
 		//deixa a imagem em branco e preto
 		Cores.brancoePreto(batman, "batmanBrancoePreto");
 		Cores.brancoePreto(paisagem, "paisagemBrancoePreto");
+		
+		//deixa a imagem com cores invertidas
+		Cores.inverterCores(paisagem, "paisagemCoresInvertidas");
+		
+		//deixa a imagem com escala de cinza
+		Cores.escalaCinza(paisagem, "paisagemCinza");
 
 	}
 
