@@ -4,6 +4,14 @@ import java.io.File;
 
 import imgFactory.imagens.util.CriaDestino;
 
+/**
+ * Classe Imagem, possui atributos como: 
+ * Path (Caminho do imagem) 
+ * Destino (Pasta de localização do imagem)
+ * Extensoes (Extensão da imagem)
+ * 
+ * @author leofelixscandura@gmail.com
+ */
 public class Imagem {
 	//atributos
 	private String path;

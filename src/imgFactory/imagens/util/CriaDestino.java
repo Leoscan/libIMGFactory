@@ -1,7 +1,18 @@
 package imgFactory.imagens.util;
 
+/**
+ *	classe CriaDestino é uma classe útil
+ * 	serve para converter o caminho de uma imagem para o destino da imagem
+ *  
+ * @author leofelixscandura@gmail.com
+ *
+ */
 public class CriaDestino {
 	
+	/**
+	 * @param Path é o caminho da imagem (/User/Exemplo/imagem.png)
+	 * @return destino é o Destino da imagem baseado no PATH (/User/Exemplo/)
+	 */
 	public static String defineDestino(String Path) {		
 		String[] separado = Path.split("/");
 		
