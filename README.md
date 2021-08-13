@@ -3,9 +3,7 @@ Lib desenvolvida utilizando padrão Java Eclipse, com o intuito de fazer trabalh
 
 Para Ver Testes [JUNIT](https://github.com/Leoscan/TestesLibJunit) <- clique aqui
 
-Para Ver Informações [JAVADOC](https://github.com/Leoscan/TrabalhoLIB) <- clique aqui
-
-Para Ver Diagrama de [CLASSE](https://github.com/Leoscan/TrabalhoLIB) <- Clique aqui
+Para Ver Informações da [LIB](https://github.com/Leoscan/TrabalhoLIB) <- clique aqui
 
 ## Dependencia
 ```
